@@ -601,6 +601,60 @@ nav{
         justify-content: space-evenly;
     }
 
+      /* Footer Section Style */
+
+      .containerr{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .footer-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    .footer-title h2{
+        color: #131318;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .f-sp{
+        color: #FF5400;
+    }
+    .f-text p{
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+    .fa-icon{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+    .fa-icon > p > i{
+        font-size: 25px;
+    }
+    .footer-text{
+        border-bottom: 2px solid rgba(2, 2, 92, 0.05);
+        
+    }
+    .footer-copy{
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 40px;
+    }
+    footer{
+        background: rgba(19, 19, 24, 0.05);
+        padding: 100px 0px 100px 0px;
+        margin-top: 100px;
+    }
+
 
         
 
