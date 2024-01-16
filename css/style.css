@@ -368,7 +368,7 @@ nav{
         }
 
         /* Deals and Discount Section Style */
-        
+
         .p-text{
             display: flex;
             gap: 30px;
@@ -460,6 +460,63 @@ nav{
             font-weight: 400;
             margin-bottom: 40px;
         }
+        .bttn{
+            display: flex;
+            justify-content: center;
+        }
+
+      /* perfact place section style */
+      .perfact-pace{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    .perfact-text h1{
+        color: #131318;
+        font-size: 44px;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+    .perfact-text p{
+        color: #5A5A5D;
+        font-size: 18px;
+        font-weight: 400;
+    
+    }
+    .perfact-text > ul > li{
+        color: #131318;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .perfact-text > ul{
+        padding: 40px;
+    }
+    .perfact-text{
+        width: 50%;
+    }
+    .video{
+        width: 610px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    }
+    .main-video{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .mountain{
+        position: absolute;
+        margin-top: 10px;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+        
+    }
+
         
 
 
@@ -584,6 +641,84 @@ nav{
             gap: 20px;
             align-items: center;
         }
+
+                /* Why Choose Us Section Style */
+
+                .choose-us-text h1{
+                    font-size: 28px;
+                }
+                .choose-us-text{
+                    width: 100%;
+                    padding: 0px 10px 0px 10px;
+                    margin-bottom: 25px;
+                }
+                .iconcard{
+                    margin: 0px 10px 0px 10px;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                }
+                .iconcrad1{
+                    grid-column: 1/span 1;
+                    grid-row: 1/span 1;
+            
+                }
+                .iconcrad2{
+                    grid-column: 1/span 1;
+                    grid-row: 2/span 1;
+            
+                }
+                .iconcrad3{
+                    grid-column: 1/span 1;
+                    grid-row: 3/span 1;
+                }
+                #iconcard h3{
+                    font-size: 24px;
+                }
+                #iconcard{
+                    height: 330px;
+                }
+
+            
+            /* deals ans discount section Responsive */
+
+                .p-text{
+                    margin-bottom: 20px;
+                    flex-wrap: wrap;
+                }
+                #all-text h2{
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+                #all-text p{
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                }
+                #all-text h4{
+                    font-size: 17px;
+                    margin-bottom: 18px;
+                }
+                #deals-btn{
+                    width: 130px;
+                    height: 45px;
+                }
+                .discount-text1, .discount-text2{
+                    width: 95%;
+                    position: relative;
+                    top: 180px;
+                    left: 70px;
+                    
+                
+                }
+                #deals-id{
+                    margin: 0px 10px 0px 10px;
+                }
+                .discount-bg1{
+                    background-position: bottom;
+                }
+                .discount-bg2{
+                    background-position: bottom;
+                }
+
 
 
     }
@@ -747,6 +882,86 @@ nav{
         .text-top-grid{
             margin: 0px 10px 0px 10px;
         }
+
+            /* Why Choose Us Section Responsive */
+
+            .choose-us-text h1{
+                font-size: 28px;
+            }
+            .choose-us-text{
+                width: 100%;
+                padding: 0px 10px 0px 10px;
+                margin-bottom: 25px;
+            }
+            .icon-grid{
+                margin: 0px 10px 0px 10px;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+            }
+            .iconcrad1{
+                grid-column: 1/span 1;
+                grid-row: 1/span 1;
+        
+            }
+            .iconcrad2{
+                grid-column: 1/span 1;
+                grid-row: 2/span 1;
+        
+            }
+            .iconcrad3{
+                grid-column: 1/span 1;
+                grid-row: 3/span 1;
+            }
+            #iconcard h3{
+                font-size: 24px;
+            }
+            #iconcard{
+                height: 330px;
+            }
+        
+                /* deals ans discount section Responsive */
+                .deals-text h1{
+                    font-size: 25px;
+                }
+                .p-text{
+                    margin-bottom: 20px;
+                    flex-wrap: wrap;
+                }
+                #all-text h2{
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+                #all-text p{
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                }
+                #all-text h4{
+                    font-size: 17px;
+                    margin-bottom: 18px;
+                }
+                #deals-btn{
+                    width: 130px;
+                    height: 45px;
+                }
+                .discount-text1, .discount-text2{
+                    width: 95%;
+                    height: 420px;
+                    position: relative;
+                    top: 180px;
+                    left: 10px;
+                    
+                
+                }
+                #deals-id{
+                    margin: 0px 10px 0px 10px;
+                }
+                .discount-bg1{
+                    background-position: bottom;
+                }
+                .discount-bg2{
+                    background-position: bottom;
+                }
+
         
 
 
