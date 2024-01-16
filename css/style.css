@@ -6,3 +6,63 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+/* shared styles Add*/
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.prymari-btn{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+
+}
+.prymari-btn a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Navber section style */
+.nav-title h2{
+    color: #131318;
+    font-size: 44px;
+    font-weight: 800;
+}
+.nav-title-spn{
+    color: #FF5400;
+}
+.nav-title{
+    display: flex;
+    gap: 7px;
+}
+nav{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-options{
+    display: flex;
+    gap: 48px;
+}
+.nav-options li{
+    list-style: none;
+
+}
+.nav-options li a{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.dropdown{
+    display: none;
+}
+.fst-li a{
+    color: #FF5400;
+    font-weight: 700 !important;
+}
