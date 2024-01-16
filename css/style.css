@@ -298,3 +298,163 @@ nav{
 .bandarban{
     grid-column: 6/span 7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Style Added   */
+
+/* For Tablet Size Devices Responsive */
+
+        /* Navber Responsive */
+           @media screen and (min-width: 600px) and (max-width: 982px){
+
+            *{
+                box-sizing: border-box;
+            }
+
+            #nav-list{
+                display: none;
+            }  
+            .dropdown{
+                display: block;
+            }
+            .nav-title h2{
+                font-size: 35px;
+            }
+            .nav-title img{
+                width: 50px;
+            }
+            nav{
+                margin-top: 35px;
+                padding: 0px 20px 0px 15px;
+            }
+
+           }
+
+            /* Banner Section Responsive */
+            .banner-text h1{
+                font-size: 40px;
+                margin-bottom: 15px;
+            }
+            .banner-text p{
+                font-size: 18px;
+            }
+            .banner-txt-area{
+                padding-top: 50px;
+            }
+            .banner-text{
+                width: 100%;
+                padding: 5px;
+            }
+            .banner-input{
+                flex-direction: column;
+            }
+            #input-field{
+                width: 265px;
+                font-size: 16px;
+            }
+            #banner-area{
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                height: 600px;
+                background-position: bottom;
+            }
+            .prymari-btn{
+                width: 265px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* For Small Devices like of Mobile Phone */
+                /* Navber Responsive */
+
+        @media screen and (max-width: 600px){
+            #nav-list{
+                display: none;
+            }  
+            .dropdown{
+                display: block;
+            }
+            .nav-title h2{
+                font-size: 28px;
+            }
+            .nav-title img{
+                width: 43px;
+            }
+            nav{
+                margin-top: 30px;
+                padding: 0px 15px 0px 10px;
+            }
+
+
+            /* Banner Section Responsive */
+            .banner-text h1{
+                font-size: 30px;
+                margin-bottom: 15px;
+            }
+            .banner-text p{
+                font-size: 15px;
+            }
+            .banner-txt-area{
+                padding-top: 45px;
+            }
+            .banner-text{
+                width: 100%;
+                padding: 5px;
+            }
+            .banner-input{
+                flex-direction: column;
+            }
+            #input-field{
+                width: 265px;
+                font-size: 16px;
+            }
+            #banner-area{
+                margin-top: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                height: 600px;
+                background-position: bottom;
+            }
+            .prymari-btn{
+                width: 265px;
+            }
+        
+
+
+        }
