@@ -216,7 +216,7 @@ nav{
 
 }
 
-        /* Choose Your Destination Section Style */
+/* Choose Your Destination Section Style */
 
  #iteam{
     margin-top: 80px;
@@ -465,7 +465,7 @@ nav{
             justify-content: center;
         }
 
-      /* perfact place section style */
+    /* perfact place section style */
       .perfact-pace{
         display: flex;
         justify-content: space-between;
@@ -516,7 +516,7 @@ nav{
         font-weight: 800;
         
     }
-      /* News Latter Section Style */
+    /* News Latter Section Style */
 
       .form > input, button{
         display: block;
@@ -656,44 +656,12 @@ nav{
     }
 
 
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsive Style Added   */
 
 /* For Tablet Size Devices Responsive */
-
         /* Navber Responsive */
+
            @media screen and (min-width: 600px) and (max-width: 982px){
 
             *{
@@ -716,10 +684,8 @@ nav{
                 margin-top: 35px;
                 padding: 0px 20px 0px 15px;
             }
-
-           
-
-            /* Banner Section Responsive */
+     
+    /* Banner Section Responsive */
             .banner-text h1{
                 font-size: 40px;
                 margin-bottom: 15px;
@@ -752,7 +718,7 @@ nav{
                 width: 265px;
             }
 
-            /* popular tours section Responsive */
+    /* popular tours section Responsive */
             .popular{
                 flex-direction: column;
                 gap: 40px;
@@ -774,14 +740,14 @@ nav{
                 font-size: 16px;
             }
 
-        /* Additional Section Responsive */
+    /* Additional Section Responsive */
         .top-reviw{
             flex-wrap: wrap;
             gap: 20px;
             align-items: center;
         }
 
-                /* Why Choose Us Section Style */
+    /* Why Choose Us Section Responsive */
 
                 .choose-us-text h1{
                     font-size: 28px;
@@ -818,7 +784,7 @@ nav{
                 }
 
             
-            /* deals ans discount section Responsive */
+    /* deals ans discount section Responsive */
 
                 .p-text{
                     margin-bottom: 20px;
@@ -844,9 +810,7 @@ nav{
                     width: 95%;
                     position: relative;
                     top: 180px;
-                    left: 70px;
-                    
-                
+                    left: 70px;      
                 }
                 #deals-id{
                     margin: 0px 10px 0px 10px;
@@ -857,34 +821,11 @@ nav{
                 .discount-bg2{
                     background-position: bottom;
                 }
+             }
 
 
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            /* For Small Devices like of Mobile Phone */
-                /* Navber Responsive */
+    /* For Small Devices like of Mobile Phone */
+            /* Navber Responsive */
 
         @media screen and (max-width: 600px){
             #nav-list{
@@ -905,7 +846,7 @@ nav{
             }
 
 
-            /* Banner Section Responsive */
+    /* Banner Section Responsive */
             .banner-text h1{
                 font-size: 30px;
                 margin-bottom: 15px;
@@ -938,7 +879,7 @@ nav{
                 width: 265px;
             }
 
-            /* popular tours section Responsive */
+    /* popular tours section Responsive */
             .popular{
                 flex-direction: column;
                 gap: 40px;
@@ -960,15 +901,13 @@ nav{
                 font-size: 15px;
             }
 
-        /* Additional Section Responsive */
+    /* Additional Section Responsive */
 
         .top-reviw{
             flex-wrap: wrap;
             gap: 20px;
             align-items: center;
         }
-    
-    
         .image-area{
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(7, 1fr);
@@ -1022,7 +961,7 @@ nav{
             margin: 0px 10px 0px 10px;
         }
 
-            /* Why Choose Us Section Responsive */
+    /* Why Choose Us Section Responsive */
 
             .choose-us-text h1{
                 font-size: 28px;
@@ -1058,7 +997,7 @@ nav{
                 height: 330px;
             }
         
-                /* deals ans discount section Responsive */
+     /* deals ans discount section Responsive */
                 .deals-text h1{
                     font-size: 25px;
                 }
@@ -1087,9 +1026,7 @@ nav{
                     height: 420px;
                     position: relative;
                     top: 180px;
-                    left: 10px;
-                    
-                
+                    left: 10px;               
                 }
                 #deals-id{
                     margin: 0px 10px 0px 10px;
@@ -1157,12 +1094,6 @@ nav{
         .travel-discount h2{
             font-size: 22px;
         }
- 
-
-
-
-
-
     }
 
         
