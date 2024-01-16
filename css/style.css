@@ -195,7 +195,7 @@ nav{
     width: 320px;
     height: 350px;
     border-radius: 5px;
-    background: #757070;
+    background: #B2BEB5;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 .popular-plase{
@@ -214,4 +214,87 @@ nav{
     display: flex;
     justify-content: space-around;
 
+}
+
+ /* Choose Your Destination Section Style */
+
+ #iteam{
+    margin-top: 80px;
+}
+.iteam-grid h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.iteam-grid p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.iteam-grid{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+}
+#immages{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#immages h4{
+    position: absolute;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.image-area{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    margin: 10px;
+
+}
+.image-area img{
+    width: 100%;
+    height: auto;
+    
+}
+.maldiv{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+
+.indonesia{
+    grid-column: 7/span 6;
+    grid-row: 1/span 1;
+}
+.srilanka{
+    grid-column: 1/span 4;
+    grid-row: 2/span 1;
+}
+.amerika{
+    grid-column: 5/span 5;
+    grid-row: 2/span 1;
+}
+.kasmir{
+    grid-column: 10/span 3;
+    grid-row: 2/span 1;
+}
+.bd{
+    grid-column: 1/span 5;
+    grid-row: 3/span 1;
+    
+}
+.bandarban{
+    grid-column: 6/span 7;
 }
