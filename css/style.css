@@ -619,10 +619,10 @@ nav{
         font-size: 40px;
         font-weight: 800;
     }
-    .f-sp{
+    .footer-sp{
         color: #FF5400;
     }
-    .f-text p{
+    .footer-text p{
         color: #5A5A5D;
         text-align: center;
         font-size: 18px;
@@ -1120,6 +1120,45 @@ nav{
                 .perfact-text{
                     width: 100%;
                 }
+
+         /* News Latter Section Responsive */
+
+         .newsletter{
+            margin: 80px 10px 0px 10px;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .form{
+            width: 100%;
+            padding: 20px;
+        }
+        .form > input{
+            width: 100%;
+            font-size: 16px;
+        }
+        .form-btn{
+            width: 100%;
+            font-size: 17px;
+            font-weight: 400;
+    
+        }
+        .travel-photo img{
+            width: 100%;
+        }
+        .travel-discount{
+            width: 215px;
+            height: 80px;
+            bottom: 35px;
+            left: 130px;
+        }
+        .travel-discount p{
+            font-size: 16px;
+        }
+        .travel-discount h2{
+            font-size: 22px;
+        }
+ 
+
 
 
 
