@@ -962,7 +962,29 @@ nav{
                     background-position: bottom;
                 }
 
+        /* perfact place area */
+
+                .perfact-pace{
+                    flex-direction: column;
+                    margin: 80px 10px 0px 10px;
+                    gap:20px;
+                }
+                .main-video{
+                    width: 100%;
+                    height: auto;
+                }
+                .perfact-text h1{
+                    color: #131318;
+                    font-size: 24px;
+                    font-weight: 800;
+                }
+                .perfact-text{
+                    width: 100%;
+                }
+
+
+
+                
+    }
+
         
-
-
-        }
