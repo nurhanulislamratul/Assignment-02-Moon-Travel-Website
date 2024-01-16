@@ -64,7 +64,7 @@ nav{
 }
 .fst-li a{
     color: #FF5400;
-    font-weight: 700 !important;
+    font-weight: 700px;
 }
 
 /* banner section style */
@@ -117,4 +117,50 @@ nav{
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/webbanner.png);
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
+}
+
+/* popular tours section style */
+
+.popular-text-area h1{
+    color: #131318;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.popular-text-area p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+}
+.popular-text-area > ul >  li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 18px;
+    font-weight: 400;
+}
+.popular-text-area > ul{
+    padding: 25px;
+    margin: 20px;
+}
+
+.prymary-btn{
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 40px;
+}
+.prymary-btn a{
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.popular-text-area{
+    width: 55%;
+}
+.popular{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
 }
